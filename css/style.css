@@ -5,12 +5,18 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
+    color: white;
 }
 
 body > div {
     height: 100vh;
     display: flex;
     flex-direction: column;
+}
+
+main {
+    height: 100vh;
+    overflow-y: scroll;
 }
 
 
@@ -32,26 +38,30 @@ body > div {
     height: 80px;
 }
 
-
-
-
-
-
-.grey {
+.bgc-grey {
     background-color: grey;
 }
 
-.black {
+.bgc-black {
     background-color: black;
-    height: 100vh;
-    overflow-y: scroll;
-    color: white;
 }
-
 
 /* BORDER TOP */
 
 .border-top > .posabs {
     top: 5px;
-    right: 10px;
+    right: 5px;
 }
+
+.border-top .btn {
+    background-color: #4A4A4A;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+
+
