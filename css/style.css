@@ -13,6 +13,30 @@ body > div {
     flex-direction: column;
 }
 
+
+/* UTILITIES */
+
+.posrel {
+    position: relative;
+}
+
+.posabs {
+    position: absolute;
+}
+
+.h-100 {
+    height: 100px;
+}
+
+.h-80 {
+    height: 80px;
+}
+
+
+
+
+
+
 .grey {
     background-color: grey;
 }
@@ -24,7 +48,10 @@ body > div {
     color: white;
 }
 
-.px100 {
-    height: 100px;
-}
 
+/* BORDER TOP */
+
+.border-top > .posabs {
+    top: 5px;
+    right: 10px;
+}
