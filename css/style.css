@@ -6,3 +6,25 @@
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
 }
+
+body > div {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.grey {
+    background-color: grey;
+}
+
+.black {
+    background-color: black;
+    height: 100vh;
+    overflow-y: scroll;
+    color: white;
+}
+
+.px100 {
+    height: 100px;
+}
+
