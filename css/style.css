@@ -91,3 +91,13 @@ main {
 
 /* ACTIONS BELOW */
 
+div .actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.actions > div:not(.end-meeting) {
+    font-size: 2.5rem;
+}
