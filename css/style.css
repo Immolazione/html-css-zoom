@@ -108,3 +108,11 @@ div .actions {
     align-items: center;
     padding: 0 20px;
 }
+
+.end-meeting {
+    
+}
+
+.actions > .end-meeting > div {
+    color: red;
+}
