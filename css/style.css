@@ -91,28 +91,45 @@ main {
 
 /* ACTIONS BELOW */
 
-.actions > ul, .actions > div {
+.actions .main-actions {
     display: flex;
-    flex-basis: calc(100% / 4);
+    justify-content: center;
+    flex-basis: 60%;
+}
+
+.actions .side-actions, .actions > div {
+    display: flex;
+    flex-basis: 10%;
+}
+
+.actions > div {
+    justify-content: flex-end;
 }
 
 .actions > ul > li {
     display: inline-block;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
 }
 
 div .actions {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 20px;
+    padding: 0 10px;
 }
 
-.end-meeting {
-    
-}
-
-.actions > .end-meeting > div {
+/* .actions > .end-meeting > div > div {
     color: red;
+} */
+
+.actions .fas {
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+
+.main-actions span {
+    font-size: 0.8rem;
 }
