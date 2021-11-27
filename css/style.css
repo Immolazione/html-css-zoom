@@ -121,10 +121,6 @@ div .actions {
     padding: 0 10px;
 }
 
-/* .actions > .end-meeting > div > div {
-    color: red;
-} */
-
 .actions .fas {
     font-size: 2rem;
     margin-bottom: 5px;
@@ -132,4 +128,13 @@ div .actions {
 
 .main-actions span {
     font-size: 0.8rem;
+}
+
+.end-meeting {
+    line-height: 100px;
+    color: red;
+    text-align: center;
+    background-color: #4A4A4A;
+    font-size: 0.8rem;
+    width: 70%;
 }
