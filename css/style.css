@@ -75,6 +75,11 @@ main {
 
 /* HUUUUUUUUUUUGE GRID */
 
+main .grid-container {
+    height: 100%;
+    display: flex;
+}
+
 .posabs.microphone {
     bottom: 3px;
     left: 0;
