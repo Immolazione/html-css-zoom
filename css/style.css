@@ -78,6 +78,14 @@ main {
 main .grid-container {
     height: 100%;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+.grid-user {
+    height: 200px;
+    margin: 0 5px 10px 0;
 }
 
 .posabs.microphone {
