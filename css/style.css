@@ -157,3 +157,11 @@ div .actions {
     align-items: center;
     font-size: 1rem;
 } 
+
+.fas {
+    transition: color .5s;
+}
+
+.fas:hover {
+    color: lightgreen;
+}
